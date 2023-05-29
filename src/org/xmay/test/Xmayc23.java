@@ -7,9 +7,13 @@ private void xmayName() {
 private void xmayId() {
 System.out.println("1234");
 }
+private void xmayPosition() {
+	System.out.println("manager");
+}
 public static void main(String[] args) {
 	Xmayc23 x=new Xmayc23();
 	x.xmayName();
 	x.xmayId();
+	x.xmayPosition();
 }
 }
